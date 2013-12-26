@@ -6,7 +6,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, device/htc/ace/device.mk)
 
 PRODUCT_DEVICE := ace
-PRODUCT_NAME := cm_ace
+PRODUCT_NAME := omni_ace
 PRODUCT_BRAND := htc_wwe
 PRODUCT_MODEL := Desire HD
 PRODUCT_MANUFACTURER := HTC
