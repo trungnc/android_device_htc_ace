@@ -111,7 +111,7 @@ PRODUCT_PACKAGES += \
 	e2fsck
 
 # Torch
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
 	Torch
 
 # GPS / BT / Lights / Sensors
@@ -162,12 +162,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.goo.rom=MustaKitkatNightlyOdexed
 else
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.goo.rom=MustaKitkatNightly
+	ro.goo.rom=TrungnComni4.4Nightly
 endif
 
 # The rest of goo.im props
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.goo.developerid=Mustaavalkosta \
+	ro.goo.developerid=TrungnC \
 	ro.goo.version=$(shell date -u +%Y%m%d)
 
 # call the proprietary setup
