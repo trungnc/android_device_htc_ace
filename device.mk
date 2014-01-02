@@ -111,8 +111,8 @@ PRODUCT_PACKAGES += \
 	e2fsck
 
 # Torch
-# PRODUCT_PACKAGES += \
-	Torch
+PRODUCT_PACKAGES += \
+	OmniTorch
 
 # GPS / BT / Lights / Sensors
 PRODUCT_PACKAGES += \
