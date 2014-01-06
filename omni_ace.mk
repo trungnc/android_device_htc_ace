@@ -6,6 +6,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from the common Open Source product configuration
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk
+
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit device configuration
