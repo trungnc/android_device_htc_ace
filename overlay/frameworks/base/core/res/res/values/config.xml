@@ -78,6 +78,9 @@
 	<item>255</item>
     </integer-array>
 
+    <!-- Enable support of custom button backlight -->
+    <bool name="config_button_brightness_support">true</bool>
+
     <!-- Array of output values for button backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater
          than the size of the config_autoBrightnessLevels array.
@@ -190,7 +193,13 @@
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
 
-    <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
+    <!-- Enable notification LED support -->
+    <bool name="config_intrusiveNotificationLed">true</bool>
+
+    <!-- Enable charging LED support -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+
+    <!-- If the LED has more then one color -->
+    <bool name="config_multiColorBatteryLed">true</bool>
 
 </resources>
